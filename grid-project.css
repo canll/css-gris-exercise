@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 10vh calc(100vh - (200px + 20vh)) 10vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    grid-column: span 12;
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2018%2F07%2F18%2F13%2F05%2Fecommerce-3546296__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+    grid-column: span 12;
+    background-color: lightblue;
+}
+aside{
+    grid-column: span 3;
+    background-color: lightyellow;
+}
+main
+   { grid-column: span 9;
+    background-color: tomato;
+}
+footer{
+    grid-column: span 12;
+    background-color: turquoise;
+}

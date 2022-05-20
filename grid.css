@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px 50vw 150px;
+    grid-template-rows:  100px 500px 20vh ;
+    justify-content: center;
+    /*align-items: center;*/
+    
+    
+}
+.content{
+    border: 1px solid red;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.content1{
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/06/17/46/wildflowers-7178819__340.jpg);
+    background-size:cover ;
+}
+.content9{
+    background-color: lightcoral;
+}
